@@ -1,27 +1,27 @@
 Исходный текст:
-ton3k6b0st kxmsi3t03xpe 8ysj0bnw n9i 23a53rns7je8o mu 4btg7 kif 8942cmc3n06s e3uwfql5 49d27634mj 83xs4t i av1 v4ys sq1m 83p7fna8f zt73dbqe 7qh3u1 m0gl7ye20nipd z88x762z8 bc9 kqcskg8j4s5 6qvig5ql00 7r hl0d7al1yfze 7ghv g8hyw87i2vik pwcya17 fdus43055aa6x f2t45n 9k7zak edclu2ivmwvr d0 2425qs0pdjgz l9rv mfuh7j8zi f9xsat6spd6iy1 q5 qch tmzm81p95 veyfychf amy3d8ylchlgbv 5qsuio4bxx1iv propg96 6tqnwo tn7okwl nlq e4m2hd d3an6w1caz 5640xd 17ysyi522b 2pn3dtri0k5m drezlmt1p raty7o lgmxeeo7 yqqju n5 5yl 166ey5y 51pjg58hk1xf ceubg54ucihe2c ymvom5n4 gys8vs 6pvou6v3wyfuym 86 20j3 jd4v2wjjrsl67h 63r kppm06 u5p2r0l 8msrocl51ix g2cugdr1318i 901 rngyc9cy nn331q np0h6 i3gd5 dfp 7tlnuc0zuh 3ct0wv 72h8vvm280ww31 yvdoxwbd ekvby07d t3 5eh8z8 pkt63bfw4j wppejpdw5 cf3e1uqzdcikn dg4bszszh8rv7g p0jkh65seaza pmksqcme1r xfh8k7mayfxlc i8il4zgmsn6 fb5ktwn39fkq7 t nnxiea8z36h f zbc ca v4zuzvf25 5 mptpf1c vergqtpuo 5xe8ev51evs iki4 w1 gwnxe2 ap qx5 1ap vxycz2cs8k gmh7quq7rh2fp jqz4 ztk2az y9u 9cg3vm3qg zutn598yu46f dp dh
+afulzo0 p3qrk c6dn o b1gp qd5 qn1qxjahp1hwf gt50x56ah5e6t mw9j xb3 rh2o0esw8sbfc6 34x8v4lavli 600 4zj1 m wskulpdn4jdwr a9 yz7tvlmzkogbrm o3n0ul9 1o42w51v64izl9 dy rdt q8w8a9z5q ueyeu jhn3 8ttc0p0u o6s4gwvmlskd6 z2xxjmvo wv7yi03bo1nnf 6pybbubvxu4 fv5byx7jci rpbmyd2ws wjqw9dvxrl 5lt ycq p6hln8uucv osf5xl wqkzubx4yhjn2 y3eusv3i6z7q6 1181yayi88 86sn bx3 dfwixnpbqm01py 766vcf6rrpuy t2c43fs6 0tyf52jv4 vx1jpgd27 pyxcobcbq zvqq5pfx uoiky6aeg na mwc 2r8ta0c 6li nz sg36h410 r6y8e1kq38bonk foutrx4 3rk6euh6 5fwq6 c typmcal6 bx2mj6lavq jcj kxtgianc 82tbkvalc y5q 64f4 ond0c 8r u3vauunjtsiib 10y8tpgllou1 sru 0ev qj3lkgd48u5yz q8spkae ntevb2j7rskh9k 3395v1c74gfovd cj5 d5 onza06eg7e59t tzmwbded1c q3xm xpb6gbjl3du3b nue 279c9cscpx cedmwquy6f9 jg9wbp2hwend o13q28270dc et30ke0vk phb1u5kg9b xl f9m4ec87f 6zw ri owb hdsw50b44b9s ca70a9v e l17oz0uyzidh mfpj4olu2p758b ak6bdfdyal k8rz mhv6 qech9 u kq95cdxmwqo9m sig5aor v p8by4 tfi 9b 9x 9kz2d7of9nvl w38gue19ya1p7y fhmmir8 cmmmrlf x8v9 jtd9u31b21 nuo6zifht ubglu72l
 
 Параметры выбранного варианта:
-Вариант:
+Вариант: 18
 Латиница
 Сортировка слиянием по количеству символов в слове
 Учитывать числа
 
-Количество слов в исходном тексте: 120
+Количество слов в исходном тексте: 121
 Время выполнения сортировки: 1 мс
 
 Количество слов каждой длины:
-Длина 14: 7 слов
-Длина 13: 8 слов
-Длина 12: 11 слов
-Длина 11: 5 слов
-Длина 10: 9 слов
-Длина 9: 9 слов
+Длина 14: 9 слов
+Длина 13: 12 слов
+Длина 12: 6 слов
+Длина 11: 4 слов
+Длина 10: 10 слов
+Длина 9: 10 слов
 Длина 8: 9 слов
-Длина 7: 6 слов
-Длина 6: 15 слов
-Длина 5: 4 слов
-Длина 4: 7 слов
-Длина 3: 14 слов
-Длина 2: 12 слов
-Длина 1: 4 слов
+Длина 7: 9 слов
+Длина 6: 1 слов
+Длина 5: 6 слов
+Длина 4: 11 слов
+Длина 3: 18 слов
+Длина 2: 10 слов
+Длина 1: 6 слов

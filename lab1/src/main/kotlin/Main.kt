@@ -7,7 +7,7 @@ fun main() {
     TextGenerator.generateTestFiles()
 
     val variantParams = """
-        Вариант:
+        Вариант: 18
         Латиница
         Сортировка слиянием по количеству символов в слове
         Учитывать числа

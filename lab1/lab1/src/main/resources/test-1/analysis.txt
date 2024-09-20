@@ -1,0 +1,27 @@
+Исходный текст:
+ohtdcs0q iylw fqie bh72368gw z80hmuz i2mjfydl7 0zw9j1z 4p x07cw5xp8 7bd mly68x8b gfu7lit g95on6bomxutb 4psbtb68 q 5k9l 7uhdy1xtbv d 064ra9rqde fj5k0 cdu y37vmcl7rnoum 9rfzyc31m gf5cmi gl3u3 qq9amb8wq gx 21w37lsiol7ly wc19mjcc9yvl ylnj5ba8yeof p pr5yiljzw wjrdy m 04ocdlkoxl iyqy0rm0kw7xbu 3h nv0 25ugt8i zglbpjni0 uej6utmypq5l2i 0ohwj391zouse 2lm9s2mv5cy0jg 7uzv1285bbssro 04zcvnwz75 uzk5z016gtb o kjuwitdcfs0e x1iqwk 47q26ppxxcm836 x2 faf7nx 539rf8nl ghnajcyailj3 v 9lfn1gpaw u6m0vhmgv04fuq uibtxjvc 5vxkrwo806 krn7voat9x7gj gt 9zi6v c4of95f2tqf mwura3fd8 yqdzd50r6vgwh 1z55aaxx5k wvag4usqoz i4 pw4hh9g j3mzq3cofu ue kt827h08hfgz8b 9riw3dljso blqxuqrlfcwx 6s2r 3mh 6b53x t34zoqboqp2z uei8 b7tg5jh u3g3yp u5x6jdl 1 huek6w el 0ohfk oh31yzylvkx a1yh lb7jwukpf70li kcmtzgc7pmse 8wz6 663cgezd5ycim ik 7dzicj80f9 sc6lv59lrt2w 3zbpiu5fpl ob lxuq3ycd 15nhn0r 4642bozes9d m7 modni5020ah lfh2ef3m6s 3xdx5emephxwv v212t iqq9mi3 8ys 7bt7p5 l2sc2j716lrm 5ewrrpn p1h2 2eptogyybmde ohefg31pi thw6g28vm9 4l814 u623t677p
+
+Параметры выбранного варианта:
+Вариант:
+Латиница
+Сортировка слиянием по количеству символов в слове
+Учитывать числа
+
+Количество слов в исходном тексте: 116
+Время выполнения сортировки: 1 мс
+
+Количество слов каждой длины:
+Длина 1: 7 слов
+Длина 2: 11 слов
+Длина 3: 5 слов
+Длина 4: 8 слов
+Длина 5: 8 слов
+Длина 6: 6 слов
+Длина 7: 10 слов
+Длина 8: 6 слов
+Длина 9: 11 слов
+Длина 10: 13 слов
+Длина 11: 5 слов
+Длина 12: 10 слов
+Длина 13: 9 слов
+Длина 14: 7 слов

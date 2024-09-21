@@ -1,26 +1,26 @@
 package lab3
 
-class Processor(private val id: Int, private val buffer: Buffer) : Runnable {
+import java.util.concurrent.Executors
+import java.util.concurrent.TimeUnit
 
-    private var currentTime = 0
+class Processor(private val queuedBuffer: IBuffer, private val numberOfCores: Int) {
+    private val cores: List<Core> = List(numberOfCores) { Core(it + 1, queuedBuffer) }
+    private val executor = Executors.newFixedThreadPool(numberOfCores)
 
-    override fun run() {
-        while (true) {
-            val packet = buffer.removePacket()
-            if (packet != null) {
-                processPacket(packet)
-            } else {
-                Thread.sleep(100) // если пакетов нет, процессор ожидает
+    init {
+        cores.forEach { executor.submit(it) }
+    }
+
+    fun shutdown() {
+        cores.forEach {it.stop()}
+        executor.shutdown()
+        try {
+            if (!executor.awaitTermination(10, TimeUnit.SECONDS)) {
+                executor.shutdownNow()
+                println("Shutting down...")
             }
+        } catch (e: InterruptedException) {
+            executor.shutdownNow()
         }
     }
-
-    private fun processPacket(packet: Packet) {
-        Print.yellow("Processor $id STARTED processing packet ${packet.toString()}")
-        currentTime += packet.duration
-        Thread.sleep(packet.duration.toLong()) // симулируем обработку пакета
-        Print.green("Processor $id FINISHED processing packet ${packet.toString()} at time $currentTime")
-    }
-
-    fun getCurrentTime(): Int = currentTime
 }

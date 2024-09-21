@@ -8,17 +8,19 @@ class Packet private constructor(
     val duration: Int,
     val priority: Int
 ) {
-    companion object {
-        fun create(arrivalTime: Int, duration: Int, priority: Int): Packet {
-            val id = Random.nextInt(1, 100000)
+    companion object Factory {
+        private var idCounter = 0
+
+         fun create(arrivalTime: Int, duration: Int, priority: Int): Packet {
+            val id = idCounter++
             return Packet(id, arrivalTime, duration, priority)
         }
 
         fun createRandom(): Packet {
             val arrivalTime = System.currentTimeMillis().toInt()
-            val duration = Random.nextInt(1000, 5000)
+            val duration = Random.nextInt(1000, 4000)
             val priority = Random.nextInt(1, 4)
-            return Packet.create(arrivalTime, duration, priority)
+            return create(arrivalTime, duration, priority)
         }
     }
 

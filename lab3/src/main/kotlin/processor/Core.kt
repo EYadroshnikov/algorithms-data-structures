@@ -1,12 +1,15 @@
-package lab3
+package lab3.processor
 
-class Core(private val id: Int, private val queuedBuffer: IBuffer) : Runnable {
-    private var currentTime = 0
+import lab3.buffer.IBuffer
+import lab3.Packet
+import lab3.logger.Print
+
+class Core(private val id: Int, private val buffer: IBuffer) : Runnable {
     private var running = true
 
     override fun run() {
         while (running) {
-            val packet = queuedBuffer.getPacket()
+            val packet = buffer.getPacket()
             if (packet != null) {
                 processPacket(packet)
             } else {
@@ -16,10 +19,10 @@ class Core(private val id: Int, private val queuedBuffer: IBuffer) : Runnable {
     }
 
     private fun processPacket(packet: Packet) {
-        Print.yellow("Core $id STARTED processing packet ${packet.toString()}")
-        currentTime += packet.duration
+        Print.yellow("Core $id STARTED processing packet $packet")
         Thread.sleep(packet.duration.toLong()) // симулируем обработку пакета
-        Print.green("Core $id FINISHED processing packet ${packet.toString()} at time $currentTime")
+        Print.green("Core $id FINISHED processing packet $packet at time ${System.currentTimeMillis().toInt()}")
+        buffer.removePacket(packet)
     }
 
     fun getId(): Int {

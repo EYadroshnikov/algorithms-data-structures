@@ -1,5 +1,6 @@
-package lab3
+package lab3.processor
 
+import lab3.buffer.IBuffer
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 

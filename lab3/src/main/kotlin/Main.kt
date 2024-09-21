@@ -1,7 +1,27 @@
 package lab3
 
+import lab3.buffer.PriorityBuffer
+import lab3.buffer.QueuedBuffer
+import lab3.simulations.InputSimulation
+import lab3.simulations.RandomSimulation
+import java.io.BufferedReader
+import java.io.InputStreamReader
+
 fun main() {
-    val simulation = Simulation(buffer = PriorityBuffer(capacity = 2), numberOfCores = 2, simulationDuration = 10)
-    simulation.run()
+    val reader = BufferedReader(InputStreamReader(System.`in`))
+    val bufferCapacity = reader.readLine().toInt()
+    val cors = 2
+    val randomSimulationDuration = 10.toLong()
+
+    val randomSimulation = RandomSimulation(
+        buffer = QueuedBuffer(capacity = bufferCapacity),
+        numberOfCores = cors,
+        simulationDuration = randomSimulationDuration
+    )
+    randomSimulation.run()
+
+    val inputSimulation = InputSimulation(buffer = QueuedBuffer(capacity = bufferCapacity), numberOfCores = cors)
+//    inputSimulation.run()
+
 }
 

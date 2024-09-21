@@ -1,8 +1,8 @@
-package lab3
+package lab3.logger
 
 object Print {
     private fun printColored(text: String, color: ConsoleColor) {
-        println("${color}$text${ConsoleColor.RESET}")
+        println("[${System.currentTimeMillis().toInt()}] ${color}$text${ConsoleColor.RESET}")
     }
 
     fun red(text: String) = printColored(text, ConsoleColor.RED)

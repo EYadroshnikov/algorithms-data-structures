@@ -27,14 +27,4 @@ class QueuedBuffer(private val capacity: Int) : IBuffer {
     override fun removePacket(packet: Packet): Int {
         return processingPackets--
     }
-
-    @Synchronized
-    override fun isEmpty(): Boolean = packets.isEmpty()
-
-    @Synchronized
-    override fun getCapacity(): Int = capacity
-
-    @Synchronized
-    override fun getNumberOfPackets(): Int = packets.size + processingPackets
 }
-

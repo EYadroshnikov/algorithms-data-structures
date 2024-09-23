@@ -13,20 +13,16 @@ class Core(private val id: Int, private val buffer: IBuffer) : Runnable {
             if (packet != null) {
                 processPacket(packet)
             } else {
-                Thread.sleep(100) // если пакетов нет, ядро ожидает
+                Thread.sleep(10) // если пакетов нет, ядро ожидает
             }
         }
     }
 
     private fun processPacket(packet: Packet) {
-        Print.yellow("Core $id STARTED processing packet $packet")
+        Print.yellow("Core $id STARTED processing packet $packet at time ${System.currentTimeMillis().toInt()} ")
         Thread.sleep(packet.duration.toLong()) // симулируем обработку пакета
         Print.green("Core $id FINISHED processing packet $packet at time ${System.currentTimeMillis().toInt()}")
         buffer.removePacket(packet)
-    }
-
-    fun getId(): Int {
-        return this.id
     }
 
     fun stop() {

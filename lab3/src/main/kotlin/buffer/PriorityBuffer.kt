@@ -19,7 +19,6 @@ class PriorityBuffer(private val capacity: Int) : IBuffer {
 
     @Synchronized
     override fun getPacket(): Packet? {
-        packets.map { println(it) }
         return packets.poll()?.also {
             processingPackets++
         }
@@ -29,13 +28,4 @@ class PriorityBuffer(private val capacity: Int) : IBuffer {
     override fun removePacket(packet: Packet): Int {
         return processingPackets--
     }
-
-    @Synchronized
-    override fun isEmpty(): Boolean = packets.isEmpty()
-
-    @Synchronized
-    override fun getCapacity(): Int = capacity
-
-    @Synchronized
-    override fun getNumberOfPackets(): Int = packets.size
 }

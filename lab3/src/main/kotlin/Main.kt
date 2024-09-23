@@ -10,17 +10,18 @@ import java.io.InputStreamReader
 fun main() {
     val reader = BufferedReader(InputStreamReader(System.`in`))
     val bufferCapacity = reader.readLine().toInt()
-    val cors = 2
+//    val bufferCapacity = 1
+    val cores = 2
     val randomSimulationDuration = 10.toLong()
 
     val randomSimulation = RandomSimulation(
-        buffer = QueuedBuffer(capacity = bufferCapacity),
-        numberOfCores = cors,
+        buffer = PriorityBuffer(capacity = bufferCapacity),
+        numberOfCores = cores,
         simulationDuration = randomSimulationDuration
     )
     randomSimulation.run()
 
-    val inputSimulation = InputSimulation(buffer = QueuedBuffer(capacity = bufferCapacity), numberOfCores = cors)
+//    val inputSimulation = InputSimulation(buffer = QueuedBuffer(capacity = bufferCapacity), numberOfCores = cores)
 //    inputSimulation.run()
 
 }

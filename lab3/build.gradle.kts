@@ -1,3 +1,6 @@
+import org.gradle.kotlin.dsl.runtimeClasspath
+import kotlin.text.set
+
 plugins {
     kotlin("jvm")
 }
@@ -18,4 +21,11 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(20)
+}
+
+tasks.register<JavaExec>("runLab3") {
+    group = "application"
+    description = "Запуск основного кода лабораторной работы 3"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("lab3.MainKt")
 }

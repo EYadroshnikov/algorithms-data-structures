@@ -27,7 +27,7 @@ class RandomSimulation(
                 }
 
                 // Задержка перед добавлением следующего пакета
-                Thread.sleep(Random.nextInt(200, 1000).toLong())
+                Thread.sleep(Random.nextInt(200, 500).toLong())
             }
         }
 
@@ -47,5 +47,3 @@ class RandomSimulation(
         }
     }
 }
-
-

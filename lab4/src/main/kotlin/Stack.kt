@@ -1,72 +1,33 @@
 package lab4
 
 open class Stack<T> {
-    private var top: Node<T>? = null
+    protected val list = SingleLinkedList<T>()
+    private val capacity = 100
 
     open fun push(value: T): Unit {
-        top = Node(value, top)
+        if (list.size >= capacity) {
+            throw StackOverflowError()
+        }
+        return list.push(value)
     }
 
     open fun pop(): T? {
-        if (isEmpty()) {
-            return null
-        }
-        val poppedValue = top?.value
-        top = top?.next
-        return poppedValue
+        return list.pop()
     }
 
     open fun remove(value: T): Boolean {
-        var current = top
-        var previous: Node<T>? = null
-
-        while (current != null) {
-            if (current.value == value) {
-                if (previous == null) { // Removing the top element
-                    top = current.next
-                } else {
-                    previous.next = current.next
-                }
-                return true
-            }
-            previous = current
-            current = current.next
-        }
-        return false // Value not found
+        return list.remove(value)
     }
 
-    fun peek(): T? = top?.value
-
-    fun isEmpty(): Boolean = top == null
-
-    fun isExist(value: T): Boolean {
-        var current = top
-        while (current != null) {
-            if (current.value == value) {
-                return true
-            }
-            current = current.next
-        }
-        return false
+    fun contains(value: T): Boolean {
+        return list.contains(value)
     }
 
     fun size(): Int {
-        var count = 0
-        var current = top
-        while (current != null) {
-            count++
-            current = current.next
-        }
-        return count
+        return list.size
     }
 
     override fun toString(): String {
-        val values = mutableListOf<T>()
-        var current = top
-        while (current != null) {
-            values.add(current.value)
-            current = current.next
-        }
-        return values.joinToString(" -> ")
+        return list.toString()
     }
 }

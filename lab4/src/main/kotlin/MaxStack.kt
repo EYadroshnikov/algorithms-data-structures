@@ -1,19 +1,19 @@
 package lab4
 
 class MaxStack<T : Comparable<T>> : Stack<T>() {
-    private var maxTop: Node<T>? = null
+    private val maxList = SingleLinkedList<T>()
 
     override fun push(value: T) {
         super.push(value)
-        if (maxTop == null || value >= maxTop!!.value) {
-            maxTop = Node(value, maxTop)
+        if (maxList.peek() == null || value >= maxList.peek()!!) {
+            maxList.push(value)
         }
     }
 
     override fun pop(): T? {
         val poppedValue = super.pop()
-        if (poppedValue == maxTop?.value) {
-            maxTop = maxTop?.next
+        if (poppedValue == maxList.peek()) {
+            maxList.pop()
         }
         return poppedValue
     }
@@ -21,38 +21,22 @@ class MaxStack<T : Comparable<T>> : Stack<T>() {
     override fun remove(value: T): Boolean {
         val isRemoved = super.remove(value)
 
-        var current = maxTop
-        var previous: Node<T>? = null
-
-        while (isRemoved && current != null) {
-            if (current.value == value) {
-                if (!super.isExist(value)) {
-                    if (previous == null) { // Removing the top element
-                        maxTop = current.next
-                    } else {
-                        previous.next = current.next
-                    }
+        if (isRemoved) {
+            for (max in maxList) {
+                if (max == value) {
+                    maxList.remove(max)
+                    break
                 }
-                break
             }
-
-            previous = current
-            current = current.next
         }
 
         return isRemoved
     }
 
-    fun max(): T? = maxTop?.value
+    fun max(): T? = maxList.peek()
 
     override fun toString(): String {
-        val values = mutableListOf<T>()
-        var current = maxTop
-        while (current != null) {
-            values.add(current.value)
-            current = current.next
-        }
         return "Stack: ${super.toString()}\n" +
-                "Max top: ${values.joinToString(" -> ")}"
+                "Max top: ${maxList.toString()}"
     }
 }

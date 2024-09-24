@@ -9,3 +9,4 @@ plugins {
 rootProject.name = "algorithms-data-structures"
 include("lab1")
 include("lab3")
+include("lab4")

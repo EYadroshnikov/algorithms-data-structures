@@ -21,7 +21,7 @@ fun main() {
     )
     randomSimulation.run()
 
-//    val inputSimulation = InputSimulation(buffer = QueuedBuffer(capacity = bufferCapacity), numberOfCores = cores)
+//    val inputSimulation = InputSimulation(buffer = PriorityBuffer(capacity = bufferCapacity), numberOfCores = cores)
 //    inputSimulation.run()
 
 }

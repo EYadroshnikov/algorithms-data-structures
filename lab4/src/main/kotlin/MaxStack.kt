@@ -23,7 +23,7 @@ class MaxStack<T : Comparable<T>> : Stack<T>() {
 
         if (isRemoved) {
             for (max in maxList) {
-                if (max == value) {
+                if (max == value && super.list.count(value) + 1 == maxList.count(value)) {
                     maxList.remove(max)
                     break
                 }

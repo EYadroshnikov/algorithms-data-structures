@@ -1,7 +1,7 @@
 package lab4
 
 
-class SingleLinkedList<T>: Iterable<T> {
+class SingleLinkedList<T> : Iterable<T> {
     private var head: Node<T>? = null
     var size = 0
         private set
@@ -61,6 +61,18 @@ class SingleLinkedList<T>: Iterable<T> {
             currentNode = currentNode.next
         }
         return false
+    }
+
+    fun count(value: T): Int {
+        var count = 0
+        var currentNode = head
+        while (currentNode != null) {
+            if (currentNode.value == value) {
+                count++
+            }
+            currentNode = currentNode.next
+        }
+        return count
     }
 
     fun isEmpty(): Boolean = head == null

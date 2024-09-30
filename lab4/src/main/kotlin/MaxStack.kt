@@ -37,6 +37,6 @@ class MaxStack<T : Comparable<T>> : Stack<T>() {
 
     override fun toString(): String {
         return "Stack: ${super.toString()}\n" +
-                "Max top: ${maxList.toString()}"
+                "Max list: ${maxList.toString()}"
     }
 }

@@ -1,5 +1,5 @@
 Исходный текст:
-afulzo0 p3qrk c6dn o b1gp qd5 qn1qxjahp1hwf gt50x56ah5e6t mw9j xb3 rh2o0esw8sbfc6 34x8v4lavli 600 4zj1 m wskulpdn4jdwr a9 yz7tvlmzkogbrm o3n0ul9 1o42w51v64izl9 dy rdt q8w8a9z5q ueyeu jhn3 8ttc0p0u o6s4gwvmlskd6 z2xxjmvo wv7yi03bo1nnf 6pybbubvxu4 fv5byx7jci rpbmyd2ws wjqw9dvxrl 5lt ycq p6hln8uucv osf5xl wqkzubx4yhjn2 y3eusv3i6z7q6 1181yayi88 86sn bx3 dfwixnpbqm01py 766vcf6rrpuy t2c43fs6 0tyf52jv4 vx1jpgd27 pyxcobcbq zvqq5pfx uoiky6aeg na mwc 2r8ta0c 6li nz sg36h410 r6y8e1kq38bonk foutrx4 3rk6euh6 5fwq6 c typmcal6 bx2mj6lavq jcj kxtgianc 82tbkvalc y5q 64f4 ond0c 8r u3vauunjtsiib 10y8tpgllou1 sru 0ev qj3lkgd48u5yz q8spkae ntevb2j7rskh9k 3395v1c74gfovd cj5 d5 onza06eg7e59t tzmwbded1c q3xm xpb6gbjl3du3b nue 279c9cscpx cedmwquy6f9 jg9wbp2hwend o13q28270dc et30ke0vk phb1u5kg9b xl f9m4ec87f 6zw ri owb hdsw50b44b9s ca70a9v e l17oz0uyzidh mfpj4olu2p758b ak6bdfdyal k8rz mhv6 qech9 u kq95cdxmwqo9m sig5aor v p8by4 tfi 9b 9x 9kz2d7of9nvl w38gue19ya1p7y fhmmir8 cmmmrlf x8v9 jtd9u31b21 nuo6zifht ubglu72l
+g7yi5ubu2vgq fyfs og4rea 99j2jwkdmn5gj fx jjia5vmuv h7v217pj1p xydiso g gms81nnf8 7rkdfgae9a55 2i53ft 7g ph3 kh2djzbu tj9twziboz3mp 5m8575ulw q b8ftuo8 ged8vbmojtsaw n7jra86l eopmna5cxh7wz6 zs4 wewmufn390 o2b658 c7dv3 0f1qxidetkkl q29b 0 i1v48eknw6oid wfgscaq7539s4j k1mp1hpxqkdaf n2onlcr c7g9 i409vhn61m1 mcewuqu 8czhvxoyeho hmb 7w1yqdbks1 3oui7z00xakmh ef3y4h5q gdmdxqr2994hy0 dl3qfovkzx lo31us 6y3isu 6ro83t7wk gl4zrehz00 yhc ifsr7j2u66v le0cz5 vd i76m ypu7vkiig 4dysgt6x8zg8m lafuh445u994xw ksxd ub6sxtsi9tjo y 60fwsdw1afi 3k44cmv y1xt20 54eszu4roe8 mro627lri7ofq0 6rqoo3o2t7u3 2obbqj0yp1 hyiiehbk upgx683tf8s 5kdnqfj1 hvdgjzqohjrz vvl9srwc75oz5d k5zevtt5pog ht02k7t1 r74s 59tyl5n8bw 27vx a4ap fwcyy6zvk wpsyj2ncat rr are9q8mbl6fec2 0n9ytfnzveqmt ai1zzmob b16mmul1pkrn81 o3rwm7a3s5wnk ix2tkv 2ilf h42ph77 a9z3k95g7y4tzc h9408zqet4s n2xc211pfv 7zi74di k23cxqdq fmq3q5g165xt27 ahmqu8d1tq pranbuhoh tpycit9k4skref ujf2m 2muju6iq gjn0yozxu7 zx3hh cnaul9geldi8y 1mk4gb7tjs qm0jd p632x2s3m krmtuvi77b1b
 
 Параметры выбранного варианта:
 Вариант: 18
@@ -7,21 +7,21 @@ afulzo0 p3qrk c6dn o b1gp qd5 qn1qxjahp1hwf gt50x56ah5e6t mw9j xb3 rh2o0esw8sbfc
 Сортировка слиянием по количеству символов в слове
 Учитывать числа
 
-Количество слов в исходном тексте: 121
-Время выполнения сортировки: 1 мс
+Количество слов в исходном тексте: 105
+Время выполнения сортировки: 5 мс
 
 Количество слов каждой длины:
-Длина 14: 9 слов
-Длина 13: 12 слов
-Длина 12: 6 слов
-Длина 11: 4 слов
-Длина 10: 10 слов
-Длина 9: 10 слов
+Длина 14: 11 слов
+Длина 13: 10 слов
+Длина 12: 7 слов
+Длина 11: 8 слов
+Длина 10: 12 слов
+Длина 9: 8 слов
 Длина 8: 9 слов
-Длина 7: 9 слов
-Длина 6: 1 слов
-Длина 5: 6 слов
-Длина 4: 11 слов
-Длина 3: 18 слов
-Длина 2: 10 слов
-Длина 1: 6 слов
+Длина 7: 6 слов
+Длина 6: 9 слов
+Длина 5: 4 слов
+Длина 4: 9 слов
+Длина 3: 4 слов
+Длина 2: 4 слов
+Длина 1: 4 слов

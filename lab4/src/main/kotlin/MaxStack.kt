@@ -35,8 +35,8 @@ class MaxStack<T : Comparable<T>> : Stack<T>() {
 
     fun max(): T? = maxList.peek()
 
-    override fun toString(): String {
-        return "Stack: ${super.toString()}\n" +
-                "Max list: ${maxList.toString()}"
-    }
+//    override fun toString(): String {
+//        return "Stack: ${super.toString()}\n" +
+//                "Max list: ${maxList.toString()}"
+//    }
 }
